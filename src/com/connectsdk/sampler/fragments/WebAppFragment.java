@@ -15,6 +15,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.os.Bundle;
 import android.util.Log;
@@ -425,6 +426,7 @@ public class WebAppFragment extends BaseFragment {
 
             mWebAppSession.sendMessage(message, new ResponseListener<Object>() {
 
+                @SuppressLint("SuspiciousIndentation")
                 @Override
                 public void onSuccess(Object response) {
                 	testResponse =  new TestResponseObject(true, TestResponseObject.SuccessCode, TestResponseObject.Sent_Message);

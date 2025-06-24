@@ -21,12 +21,12 @@ apply plugin: 'com.android.application'
 
 android {
     namespace 'com.connectsdk.sampler'
-    compileSdkVersion 31
+    compileSdkVersion 33
 
     defaultConfig {
         applicationId "com.connectsdk.sampler"
         minSdkVersion 24
-        targetSdkVersion 31
+        targetSdkVersion 33
     }
 
     sourceSets {

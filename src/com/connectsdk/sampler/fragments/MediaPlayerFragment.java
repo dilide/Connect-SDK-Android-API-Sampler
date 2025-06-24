@@ -11,6 +11,7 @@
 
 package com.connectsdk.sampler.fragments;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -587,6 +588,7 @@ public class MediaPlayerFragment extends BaseFragment {
     };
 
     public View.OnClickListener pauseListener = new View.OnClickListener() {
+        @SuppressLint("SuspiciousIndentation")
         @Override
         public void onClick(View view) {
         	if (mMediaControl != null)
@@ -631,7 +633,7 @@ public class MediaPlayerFragment extends BaseFragment {
             if (getMediaPlayer() != null) {
                 if (launchSession != null)
                     launchSession.close(null);
-                    launchSession = null;
+                launchSession = null;
 
                 disableMedia();
                 stopUpdating();

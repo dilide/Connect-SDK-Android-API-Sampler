@@ -4,4 +4,7 @@
     <issue id="MissingTranslation" severity="ignore" />
     <issue id="OldTargetApi" severity="ignore" />
     <issue id="ValidFragment" severity="ignore" />
+    <issue id="SuspiciousIndentation" severity="ignore">
+        <option name="always-run" value="false" />
+    </issue>
 </lint>
