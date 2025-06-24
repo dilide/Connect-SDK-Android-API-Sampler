@@ -60,7 +60,7 @@ import java.util.concurrent.TimeUnit;
 public class MediaPlayerFragment extends BaseFragment {
     public static final String URL_SUBTITLES_WEBVTT = "http://connectsdk.com/ConnectSDK.vtt";
     public static final String URL_SUBTITLE_SRT = "http://connectsdk.com/ConnectSDK.srt";
-    public static final String URL_VIDEO_MP4 = "http://connectsdk.com/ConnectSDK.mp4";
+    public static final String URL_VIDEO_MP4 = "https://res.chinacath.cn/web/video/2025/06/06/1749207089794.mp4";
     public static final String URL_IMAGE_ICON = "http://connectsdk.com/ConnectSDK_Logo.jpg";
 
     public Button photoButton;
