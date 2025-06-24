@@ -348,10 +348,9 @@ public class MainActivity extends AppCompatActivity implements ActionBar.TabList
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.action_connect:
-                hConnectToggle();
-                return true;
+        if(item.getItemId() == R.id.action_connect) {
+            hConnectToggle();
+            return true;
         }
         return super.onOptionsItemSelected(item);
     }
